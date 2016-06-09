@@ -3,9 +3,21 @@
  */
 module.exports = {
     devtool: 'eval-source-map',
-    entry : __dirname +'/app/main.js',
+    entry : [
+        './source/app.js',
+    ],
     output:{
-        path: __dirname + '/public',
+        path: __dirname,
         filename: 'bundle.js'
+    },
+    module: {
+        loaders:[{
+            test:/\.jsx?$/,
+            loader: 'babel',
+            query:
+            {
+                presets:['react']
+            }
+        }]
     }
 };

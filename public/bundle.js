@@ -44,24 +44,13 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/**
-	 * Created by jojoldu@zuminternet.com on 2016-06-08.
-	 */
-	var greeter = __webpack_require__(1);
-	document.getElementById('root').appendChild(greeter());
+	eval("/**\r\n * Created by jojoldu@zuminternet.com on 2016-06-08.\r\n */\r\nvar greeter = __webpack_require__(1);\r\ndocument.getElementById('root').appendChild(greeter());//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvbWFpbi5qcz82YTRiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBDcmVhdGVkIGJ5IGpvam9sZHVAenVtaW50ZXJuZXQuY29tIG9uIDIwMTYtMDYtMDguXHJcbiAqL1xyXG52YXIgZ3JlZXRlciA9IHJlcXVpcmUoJy4vR3JlZXRlci5qcycpO1xyXG5kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpLmFwcGVuZENoaWxkKGdyZWV0ZXIoKSk7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL2FwcC9tYWluLmpzXG4gKiogbW9kdWxlIGlkID0gMFxuICoqIG1vZHVsZSBjaHVua3MgPSAwXG4gKiovIl0sInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	/**
-	 * Created by jojoldu@zuminternet.com on 2016-06-08.
-	 */
-	module.exports = function(){
-	    var greet = document.createElement('div');
-	    greet.textContent = 'Hi there and greetings!';
-	    return greet;
-	};
+	eval("/**\r\n * Created by jojoldu@zuminternet.com on 2016-06-08.\r\n */\r\nmodule.exports = function(){\r\n    var greet = document.createElement('div');\r\n    greet.textContent = 'Hi there and greetings!';\r\n    return greet;\r\n};//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvR3JlZXRlci5qcz9lYjg0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMS5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBDcmVhdGVkIGJ5IGpvam9sZHVAenVtaW50ZXJuZXQuY29tIG9uIDIwMTYtMDYtMDguXHJcbiAqL1xyXG5tb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uKCl7XHJcbiAgICB2YXIgZ3JlZXQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTtcclxuICAgIGdyZWV0LnRleHRDb250ZW50ID0gJ0hpIHRoZXJlIGFuZCBncmVldGluZ3MhJztcclxuICAgIHJldHVybiBncmVldDtcclxufTtcblxuXG4vKioqKioqKioqKioqKioqKipcbiAqKiBXRUJQQUNLIEZPT1RFUlxuICoqIC4vYXBwL0dyZWV0ZXIuanNcbiAqKiBtb2R1bGUgaWQgPSAxXG4gKiogbW9kdWxlIGNodW5rcyA9IDBcbiAqKi8iXSwic291cmNlUm9vdCI6IiJ9");
 
 /***/ }
 /******/ ]);
