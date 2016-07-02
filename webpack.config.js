@@ -1,13 +1,12 @@
 /**
- * Created by jojoldu@zuminternet.com on 2016-06-08.
+ * Created by jojoldu@gmail.com on 2016-06-08.
  */
 module.exports = {
-    devtool: 'eval-source-map',
     entry : [
-        './source/app.js',
+        './source/App.js'
     ],
     output:{
-        path: __dirname,
+        path: __dirname+'/public',
         filename: 'bundle.js'
     },
     module: {
@@ -16,7 +15,7 @@ module.exports = {
             loader: 'babel',
             query:
             {
-                presets:['react']
+                presets:['es2015','react'] //es2015 : es2015 문법 적용
             }
         }]
     }

@@ -1,13 +1,14 @@
 /**
- * Created by jojoldu@zuminternet.com on 2016-06-03.
+ * Created by jojoldu@gmail.com on 2016-06-03.
  */
-import React, {Component} from 'react';
+import React from 'react';
+import ReactDom from 'react-dom';
 
-class Hello extends Component {
+export default class Hello extends React.Component {
 	render(){
 		return (
 			<h1>Hello World</h1>
 		);
 	}
 }
-React.render(<Hello />, document.getElementById('root'));
+ReactDom.render(<Hello />, document.getElementById('root'));
